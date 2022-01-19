@@ -4,6 +4,9 @@ let data = {
     berat_badan : 90
 }
 let bmi = data.berat_badan / Math.pow(data.tinggi_badan, 2);
+console.log("Nama anda = " + data.nama);
+console.log("Berat Badan anda = " + data.berat_badan);
+console.log("Tinggi Badan anda = " + data.tinggi_badan);
 console.log("BMI anda = " + bmi);
 
 if (bmi < 18.5) {
